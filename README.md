@@ -1,2 +1,4 @@
-# matterbeans
-The goal for this repo is to design a matter programming framework of couchbean classes that can be used to program autonomous floating manufacturing system "Seablox".
+# Matter manipulation framework
+
+The goal of this project is to create a java framework of open-source components, processes and materials
+that can be used together with couchbeans to control manufacturing automation systems.
