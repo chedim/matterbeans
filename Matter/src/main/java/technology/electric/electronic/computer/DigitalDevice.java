@@ -1,7 +1,7 @@
-package technology.hard.electric.devices;
+package technology.electric.electronic.computer;
 
 import economy.EconomicEntity;
-import technology.hard.electric.CircuitElement;
+import technology.electric.electronic.CircuitElement;
 
 public interface DigitalDevice extends CircuitElement {
     int pinNumber();

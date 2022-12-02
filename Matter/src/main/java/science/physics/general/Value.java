@@ -1,7 +1,7 @@
 package science.physics.general;
 
 public class Value<U extends Unit> {
-    private final float value;
+    private float value;
     private final Class<U> unit;
 
     public Value(float value, Class<U> unit) {
@@ -9,7 +9,12 @@ public class Value<U extends Unit> {
         this.unit = unit;
     }
 
-    public float value() {
+    public Value<U> set(float value) {
+        this.value = value;
+        return this;
+    }
+
+    public float get() {
         return value;
     }
 

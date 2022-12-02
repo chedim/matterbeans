@@ -37,8 +37,8 @@ public class Range<V extends Value<?>> {
     }
 
     public boolean contains(V val) {
-        if (val.value() > min.value() || includesMin && val.value() == min.value()) {
-            return val.value() < max.value() || includesMax && val.value() == max.value();
+        if (val.get() > min.get() || includesMin && val.get() == min.get()) {
+            return val.get() < max.get() || includesMax && val.get() == max.get();
         }
         return false;
     }

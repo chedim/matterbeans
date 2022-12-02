@@ -1,4 +1,4 @@
-package technology.hard.electric;
+package technology.electric.electronic;
 
 import science.physics.em.Current;
 import science.physics.em.Potential;
@@ -7,6 +7,8 @@ import science.physics.general.Range;
 
 public interface CircuitElement {
     Resistance resistance();
+
     Range<Current> allowedCurrents();
-   Range<Potential> allowedPotentials();
+
+    Range<Potential> allowedPotentials();
 }
